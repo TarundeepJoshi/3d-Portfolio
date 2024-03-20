@@ -9,18 +9,18 @@ import {
   javascript,
   linkedin,
   mongodb,
-  motion,
-  mui,
-  nextjs,
   nodejs,
-  pricewise,
   react,
   redux,
   sass,
   snapgram,
   tailwindcss,
   threads,
-  typescript,
+  bootstrap,
+  amazon,
+  blog,
+  web,
+  spotify,
 } from "../assets/icons";
 
 export const skills = [
@@ -60,21 +60,6 @@ export const skills = [
     type: "Database",
   },
   {
-    imageUrl: motion,
-    name: "Motion",
-    type: "Animation",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
-    type: "Frontend",
-  },
-  {
     imageUrl: nodejs,
     name: "Node.js",
     type: "Backend",
@@ -100,8 +85,8 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: typescript,
-    name: "TypeScript",
+    imageUrl: bootstrap,
+    name: "Bootstrap",
     type: "Frontend",
   },
 ];
@@ -165,7 +150,7 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: amazon,
     theme: "btn-back-red",
     name: "Amazon Clone (Only UI)",
     description:
@@ -173,7 +158,7 @@ export const projects = [
     link: "https://github.com/TarundeepJoshi/Amazon-Clone",
   },
   {
-    iconUrl: threads,
+    iconUrl: spotify,
     theme: "btn-back-green",
     name: "Spotify Clone",
     description:
@@ -181,15 +166,15 @@ export const projects = [
     link: "https://github.com/TarundeepJoshi/Spotify-Clone",
   },
   {
-    iconUrl: car,
-    theme: "btn-back-blue",
+    iconUrl: blog,
+    theme: "btn-back-yellow",
     name: "Blog Website Project",
     description:
       "In this project section, I have created a blog website project. On this website, users create their accounts using email and also create and upload their posts. Users also have the option to update and delete their posts. This is my first project using React JS, and for styling, I used the CSS framework Tailwind CSS, which proved useful for me.",
     link: "https://github.com/TarundeepJoshi/Blog-Website--React-JS",
   },
   {
-    iconUrl: snapgram,
+    iconUrl: web,
     theme: "btn-back-pink",
     name: "Responsive Web Developer",
     description:

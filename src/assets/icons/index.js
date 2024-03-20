@@ -5,24 +5,24 @@ import github from "./github.svg";
 import html from "./html.svg";
 import javascript from "./javascript.svg";
 import mongodb from "./mongodb.svg";
-import motion from "./motion.svg";
-import mui from "./mui.svg";
-import nextjs from "./nextjs.svg";
 import nodejs from "./nodejs.svg";
 import react from "./react.svg";
 import redux from "./redux.svg";
 import sass from "./sass.svg";
 import tailwindcss from "./tailwindcss.svg";
-import typescript from "./typescript.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import car from "./car.svg";
-import pricewise from "./pricewise.svg";
 import snapgram from "./snapgram.svg";
 import threads from "./threads.svg";
 import arrow from "./arrow.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
+import bootstrap from "./bootstrap.svg";
+import amazon from "./amazon.svg";
+import blog from "./blog.svg";
+import spotify from "./spotify.svg";
+import web from "./web.svg";
 
 export {
   css,
@@ -32,22 +32,22 @@ export {
   html,
   javascript,
   mongodb,
-  motion,
-  mui,
-  nextjs,
   nodejs,
   react,
   redux,
   sass,
   tailwindcss,
-  typescript,
   linkedin,
   twitter,
   car,
-  pricewise,
   snapgram,
   threads,
   arrow,
   soundon,
   soundoff,
+  bootstrap,
+  amazon,
+  web,
+  blog,
+  spotify,
 };
