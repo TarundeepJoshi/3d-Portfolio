@@ -1,9 +1,7 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { study } from "../assets/images";
 import {
   car,
-  contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -20,7 +18,6 @@ import {
   redux,
   sass,
   snapgram,
-  summiz,
   tailwindcss,
   threads,
   typescript,
@@ -111,74 +108,58 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Sacred Heart Convent School",
+    company_name: "10th / Primary Education",
+    icon: study,
     iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    date: "Sep 2018 - Apr 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " I have studied basic subjects like English, Hindi, Math, Science, Socail Studies",
+      "Having started to dreaming about become a ethical hacker",
+      "Participating in sports like Sprint and Football",
+      "Successfully scored 86%tile in Board Exams",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Adarsh Sen. Sec. School",
+    company_name: "12th / Senior Secondary Education",
+    icon: study,
     iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2020 - Apr 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I have select Non-Medical stream and studied amazing subjects Physics, Chemistry and Math",
+      "Apart from this, I have done some research on upcoming oppurtunity after this stream",
+      "Successfully scored 76%tile in Exams",
+      "That year Corono hit and I also started uploading content on youtube and hit 1k subscribers",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Baba Farid Group Of Institutions",
+    company_name: "BCA (Bachelor Of Computer Applications)",
+    icon: study,
     iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2021 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Started learning about Web Development and create basic projects",
+      "I have taken varity of courses includes Reponsive Web Developer, Cybersecurity basics from Edx, Web Technology, Reponsive Web Design etc",
+      "Learn subjects like DBMS, OS, Java, C++, Asp.Net, Computer Networks",
+      "Participating in college hackathons and interacted with other students",
+      "Currently learn about Backend Technologies after gaining some experience in Frontend Development",
+      "Maintaining 7.6 / 10 CGPA",
     ],
   },
 ];
 
 export const socialLinks = [
   {
-    name: "Contact",
-    iconUrl: contact,
-    link: "/contact",
-  },
-  {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/TarundeepJoshi",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/tarundeepjoshi",
   },
 ];
 
@@ -186,49 +167,33 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Amazon Clone (Only UI)",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "In this project, I have developed a frontend clone of Amazon to test my skills and see how much I can improve my frontend skills. I have used only HTML, CSS, and JavaScript. Later, I will make some changes to this project by applying some backend technologies.",
+    link: "https://github.com/TarundeepJoshi/Amazon-Clone",
   },
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Spotify Clone",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "I will create a Spotify clone project that uses HTML, CSS, and JavaScript to duplicate the music streaming platform UI. To replicate Spotify functionality, use HTML for structure, CSS for design, and JavaScript for interactive features like dynamic playlists, audio playback controls, and data retrieval from a server.",
+    link: "https://github.com/TarundeepJoshi/Spotify-Clone",
   },
   {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Blog Website Project",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "In this project section, I have created a blog website project. On this website, users create their accounts using email and also create and upload their posts. Users also have the option to update and delete their posts. This is my first project using React JS, and for styling, I used the CSS framework Tailwind CSS, which proved useful for me.",
+    link: "https://github.com/TarundeepJoshi/Blog-Website--React-JS",
   },
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Responsive Web Developer",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Completing the Responsive Web Developer Course from Dev Challenge is an impressive achievement that demonstrates a comprehensive understanding of modern web development techniques and practices.",
+    link: "https://github.com/TarundeepJoshi/Dev-Challenge",
   },
 ];
